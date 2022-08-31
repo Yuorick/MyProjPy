@@ -79,3 +79,5 @@ for i in range (0, len(rez_line)):
     f1.write(rez_line[i] +'\n')
 f1.close()
 
+print("The end")
+

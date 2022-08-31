@@ -1,0 +1,17 @@
+5
+yand.ru 2000000000
+qu.qu.ru 1000000000
+ru.wewe 2000000001
+www.www.t 2000000022
+ru.ww 2000000001
+10
+yand.ru
+ru.wewe
+qu.qu.ru
+hjhj.ru
+www.www.t
+yand.ru
+ru.wewe
+qu.qu.ru
+hjhj.ru
+ru.wwwww.www.t
