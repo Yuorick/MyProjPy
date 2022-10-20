@@ -48,3 +48,6 @@ class Actions:
 
 
 print('qy-qu')
+s= '1212'
+ia = int(s)
+print('ia =', str(ia))

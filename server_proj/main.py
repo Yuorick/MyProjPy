@@ -33,12 +33,10 @@ list_sootv = ['q' for i in range(0, 2 * j_sootv)]
 for i in range(0, j_sootv):
     listcur = re.split(" |\n",lines[i + 1])
     list_sootv[2*i] = listcur[0]
-    list_sootv[2*i +1] = listcur[1]
-
+list_sootv[2*i +1] = listcur[1]
 print("начало")
 
 list_rez = [str(-1) for i in range(i_records_num)]
-
 
 for i in range(0, i_records_num):
     name = re.split(" |\n", lines[2 + j_sootv + i])
@@ -53,11 +51,7 @@ for i in range(0, i_records_num):
         list_rez[i] = list_sootv[ind + 1]
         b=1
 
-
 print(list_rez)
-
-
-
 
 f2.close()
 print("The end")
