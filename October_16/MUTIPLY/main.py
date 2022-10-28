@@ -7,10 +7,10 @@ def pow_new(a, n):
             p = n % 2
 
             if p == 0:
-                return pow_new(a, n //2) *pow_new(a, n //2)
+                return pow_new(a*a, n //2)
             else:
-                return a * pow_new(a, n //2)* pow_new(a, n //2)
+                return a * pow_new(a, n -1)
 
-rez = pow_new(5,3)
+rez = pow_new(3,5)
 print(str(rez))
 

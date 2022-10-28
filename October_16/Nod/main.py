@@ -7,5 +7,13 @@ def gcd(a, b):
         else:
             return gcd(a, b % a)
 
-rez = gcd (23 *5, 14* 5)
+
+def gcd_(a, b):
+    if b == 0:
+        return a
+    else:
+        return gcd (b, a %b)
+
+
+rez = gcd_ (23 *5 *2, 14* 23)
 print(str(rez))
